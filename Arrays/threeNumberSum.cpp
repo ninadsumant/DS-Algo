@@ -3,7 +3,6 @@
 using namespace std;
 
 vector<vector<int> > threeNumberSum(vector<int> array, int targetSum) {
-  // Write your code here.
 	sort(array.begin(), array.end());
 	vector<vector <int>> triplets;
 	for(int i=0; i < array.size()-2; i++)
